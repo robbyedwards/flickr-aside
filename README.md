@@ -18,13 +18,13 @@ Modify `_config.yml`:
     \# Flickr  
     flickr_user_id:  
     flickr_user_name:         
-    flickr_photo_count: 12  
+    flickr_photo_count: 9  
     flickr_photo_size: s  
     flickr_lang: en-us
 
 - `flickr_user_id` is your Flickr NSID. Use something like http://idgettr.com/ to find yours.
 - `flickr_user_name` is the value that is in the url for your photos, i.e. http://www.flickr.com/photos/username/
-- `flickr_photo_count` is the number of images to display
+- `flickr_photo_count` is the number of images to display. The maximum is 20 photos.
 - `flickr_photo_size` is the photo size to display. See http://www.flickr.com/services/api/misc.urls.html for a list of the available sizes. Also not all sizes may be available, and the original will not be available at all.
 - `flickr_lang` is the language of the feed. See http://www.flickr.com/services/feeds/ for the available language codes.
 
