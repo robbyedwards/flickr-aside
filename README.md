@@ -15,7 +15,7 @@ Modify `_config.yml`:
 - Add `custom/asides/flickr.html` to the asides list where ever it should appear.
 - Add and modify the following lines to the **3rd Party Settings** section:
 
-    \# Flickr
+    \# Flickr  
     flickr_user_id:  
     flickr_user_name:         
     flickr_photo_count: 12  
