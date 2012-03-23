@@ -11,6 +11,7 @@ Version: 0.2
 Put `flickr.js` in the `/source/javascripts` folder. Then add the `flickr.html` file to `/source/_includes/custom/asides`.
 
 Modify `_config.yml`:
+
 - Add `custom/asides/flickr.html` to the asides list where ever it should appear.
 - Add and modify the following lines to the **3rd Party Settings** section:
 
