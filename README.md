@@ -1,8 +1,8 @@
 # README #
 
-JSON-P Flickr photo widget for Octopress
-(c) Robby Edwards // MIT License
-Mostly based upon the JSON-P Twitter fetcher by Brandon Mathis
+JSON-P Flickr photo widget for Octopress  
+(c) Robby Edwards // MIT License  
+Mostly based upon the JSON-P Twitter fetcher by Brandon Mathis  
 
 Version: 0.2
 
