@@ -1,0 +1,15 @@
+{% if site.flickr_user_id %}
+<section>
+  <h1><a href="http://www.flickr.com/photos/{{site.flickr_user_name}}">My Photos</a> <span>(from Flickr)</span></h1>
+  <ul id="flickr-box" class="flickr-imgs">
+    <li class="loading">Getting photos...</li>
+  </ul>
+  <script src="{{ root_url }}/javascripts/flickr.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    $.domReady(function(){
+      getFlickrFeed("{{site.flickr_user_id}}", {{site.flickr_photo_count}}, "{{site.flickr_lang}}");
+    });
+  </script>
+  <p class="flickr-www"><a href="http://www.flickr.com/">www.<strong>flick<span>r</span></strong>.com</a></p>
+</section>
+{% endif %}
