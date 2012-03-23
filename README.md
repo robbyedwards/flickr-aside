@@ -15,12 +15,12 @@ Modify `_config.yml`:
 - Add `custom/asides/flickr.html` to the asides list where ever it should appear.
 - Add and modify the following lines to the **3rd Party Settings** section:
 
-   # Flickr
-   flickr_user_id:
-   flickr_user_name:        
-   flickr_photo_count: 12
-   flickr_photo_size: s
-   flickr_lang: en-us
+    # Flickr
+    flickr_user_id:
+    flickr_user_name:        
+    flickr_photo_count: 12
+    flickr_photo_size: s
+    flickr_lang: en-us
 
 - `flickr_user_id` is your Flickr NSID. Use something like http://idgettr.com/ to find yours.
 - `flickr_user_name` is the value that is in the url for your photos, i.e. http://www.flickr.com/photos/username/
